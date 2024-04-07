@@ -1,34 +1,54 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
-
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
+### Name: [Louis Purcell]
+### Student number: [47311088] 
 
 ## 1. Player Experience (~700 words)
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+
+Progressive Skill Development: Starting with basic controls in the initial levels, such as movement and combat, players gradually learn more advanced maneuvers like crouching and shooting simultaneously, jumping while dodging spikes, and navigating through complex environments. This approach ensures players can always handle the information simultaneously, allowing them to develop their skills organically.
+
+Enemy Awareness and Strategy:  Players must adapt their tactics and strategies from the initial encounter with elemental foes like acid and chomper to the introduction of more formidable adversaries like spitters. By learning the strengths and weaknesses of each enemy type, players can devise practical approaches to overcome obstacles and progress through the levels.
+
+Decision-Making and Risk Assessment: The level design incorporates elements that require players to make decisions and take calculated risks. For example, in the final level, players are presented with three distinct paths, each with challenges and rewards. This encourages players to consider their options carefully, weighing the potential dangers against the possible benefits. 
+
+Anticipation and Adaptation: By introducing unexpected twists and obstacles, such as deceptive pathways and environmental hazards, players must learn to think on their feet and adjust their strategies in real-time. This keeps players on their toes and promotes a sense of satisfaction as they successfully navigate unpredictable situations.
+
+
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+
+Introduction of Mechanics and Incremental Complexity:  This gives a gentle introduction, allowing players to familiarise themselves with the game environment without feeling overwhelmed when the levels progress. For example, players encounter a new enemy type (spitters) in the second level and learn to utilise a long-range weapon. This increases the complexity of gameplay while still building upon the skills learned in previous levels.
+
+Problem-Solving: I integrated problem-solving elements into the gameplay, such as pressure plates that require strategic thinking to navigate. This adds depth to the gameplay experience and encourages players to think critically about their actions.
+
+Moments of Tension and Relief: I strategically insert moments of tension and relief throughout the game to keep the player engaged. For instance, the player may face intense combat encounters followed by moments of exploration or puzzle-solving, providing a brief respite before the next challenge.
+
+Navigational Complexity: In the final level, players must master all previously introduced mechanics and skills. I introduced branching paths and navigational challenges that require careful exploration and decision-making. Players must navigate through deceptive routes and backtrack to complete tasks, adding a layer of complexity and uncertainty to the gameplay.
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+
+Mechanical Mastery: Players must become proficient in executing mechanics to progress effectively from basic movements to more complex actions like combat maneuvers and environmental interactions. Each level builds upon the skills learned in previous levels, allowing players to acclimate to the controls at their own pace. 
+
+Environmental Hazards and Obstacles Hazards include spikes, acid pools, and other traps requiring precise timing and navigation. I've carefully placed these obstacles in the game world to control the difficulty curve, ensuring they are challenging enough to provide a sense of accomplishment when overcome but not so punishing as to frustrate players. 
+
+Enemy Encounters:  Players must employ different strategies and tactics, from elemental foes to more powerful adversaries, to defeat or evade these enemies. Additionally, we've provided players with multiple options for approaching combat encounters, such as using stealth, ranged attacks, or environmental hazards, allowing for flexibility in gameplay and strategy. 
+
+Puzzle-Solving and Exploration: To maintain engagement during these levels, I've designed intuitive and solvable puzzles with the information provided within the game world. 
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+
+Organic and Immersive Environments: I strived to make the environments feel organic and immersive, seamlessly blending landscape elements with gameplay features. For example, spikes are integrated into the natural terrain, making them feel like a natural part of the environment rather than artificially placed obstacles. By incorporating these elements into the landscape, players are encouraged to explore their surroundings more deeply, as they feel like authentic parts of the game world.
+
+Curved and Natural Layouts: The level layouts are designed with curves and natural contours rather than rigid block-like structures. This adds visual interest and contributes to the believability and immersion of the game world. Players feel like they are navigating through caves in floating islands, enhancing the sense of discovery and exploration.
+
+Distinct and Memorable Spaces: Through the aesthetic and layout choices, I aimed to create different and memorable spaces that leave a lasting impression on players. Each area of the game world has its unique visual identity and atmosphere, from pink voluminous cotton candy skies to ominous caverns, by carefully crafting these spaces with attention to detail, lighting, and environmental storytelling.
+
+Negative Space as Background: I kept negative space uncluttered to draw attention to key objects and elements, guiding the player's movement and focus. 
+
+Positive Space: These spaces are not merely background elements but integral components of the game world that contribute to its atmosphere and narrative.
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -40,6 +60,11 @@ You should restructure the headings below to match the order they appear in your
 ### 2.1. Acid
 
 ![Acid!](DocImages/acid.png)
+
+The player character approaches a pool of bubbling green acid.
+As the player character steps into the acid, they die and respawn at the most recent checkpoint, demonstrating the hazardous nature of the substance.
+The player character then figures they need to find another way to get past
+Introducing acid early in the game establishes it as a dangerous environmental hazard, teaching players to recognize and avoid it to prevent losing progression.
 
 ### 2.2. Checkpoints
 
