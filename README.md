@@ -3,8 +3,7 @@
 ### Name: [Louis Purcell]
 ### Student number: [47311088] 
 
-## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
+## 1. Player Experience 
 
 ### 1.1. Discovery
 
@@ -15,6 +14,7 @@ Enemy Awareness and Strategy:  Players must adapt their tactics and strategies f
 Decision-Making and Risk Assessment: The level design incorporates elements that require players to make decisions and take calculated risks. For example, in the final level, players are presented with three distinct paths, each with challenges and rewards. This encourages players to consider their options carefully, weighing the potential dangers against the possible benefits. 
 
 Anticipation and Adaptation: By introducing unexpected twists and obstacles, such as deceptive pathways and environmental hazards, players must learn to think on their feet and adjust their strategies in real-time. This keeps players on their toes and promotes a sense of satisfaction as they successfully navigate unpredictable situations.
+
 
 
 
@@ -50,21 +50,17 @@ Negative Space as Background: I kept negative space uncluttered to draw attentio
 
 Positive Space: These spaces are not merely background elements but integral components of the game world that contribute to its atmosphere and narrative.
 
-## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
+## 2. Core Gameplay 
 
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
 
 ### 2.1. Acid
 
 ![Acid!](DocImages/acid.png)
 
 The player approaches a pool of acid.
-As the player steps into the acid, they die and respawn at the most recent checkpoint, demonstrating the hazardous nature of the substance.
+As the player steps into the acid, they die and respawn at the most recent checkpoint.
 The player then figures they need to find another way to get past
-Introducing acid early in the game establishes it as a dangerous environmental hazard, teaching players to recognize and avoid it to prevent losing progression.
+Introducing acid early in the game establishes it as a dangerous environmental hazard, teaching players to recognise and avoid it to prevent losing progression.
 
 ### 2.2. Checkpoints
 
@@ -72,14 +68,14 @@ Introducing acid early in the game establishes it as a dangerous environmental h
 
 The player reaches a glowing checkpoint marker.
 The player activates the checkpoint by interacting with it, causing it to emit a bright light.
-The Introduction of checkpoints ensures players understand they can save progress and respawn, providing a sense of security as they navigate through challenging sections of the game.
+The introduction of checkpoints ensures players understand they can save progress and respawn, providing security as they navigate challenging game sections.
 
 ### 2.3. Chompers
 
 ![Chompers!](DocImages/chomper.png)
 
 The player encounters an enemy after picking up a weapon.
-As the player approaches, the chompers attack, and will lose health if hit.
+As the player approaches, the chompers attack and will lose health if hit.
 The player can use their weapon to defeat the chompers and continue.
 Introducing chompers after introducing the weapon helps the player understand how to deal with the enemy.
 
@@ -90,43 +86,40 @@ Introducing chompers after introducing the weapon helps the player understand ho
 The player approaches a health pickup on the ground, with a medical cross symbol displayed within it.
 As the player collects the health pickup, their health bar replenishes.
 Health only goes up if the player has previously taken damage
-Introducing health pickups after the first incounter with enemy provides players with a means to recover from damage taken, teaching them the importance of managing their health throughout the game.
+Introducing health pickups after the first encounter with the enemy provides players with a means to recover from damage taken, teaching them the importance of managing their health throughout the game.
 
 ### 2.5. Keys
 
 ![Keys!](DocImages/key.png)
 
-The player discovers the key symbol once completeing a segment of the level.
-Once collected the Key will appear as collected for the player
-As the player collects the key, it disappears from the environment, and a sound effect plays.
-Collecting the key shows the player the player has completed a part of the level and gives them a sense of completion.
+The player discovers the key symbol once completing a segment of the level.
+Once collected, the Key will appear as on the top of the screen.
+Collecting the Key shows the player the player has completed a part of the level and gives them a sense of completion.
 
 ### 2.6. Moving Platforms
 
 ![MovingPlatforms!](DocImages/movingplatform.png)
 
 The player approaches a large pool of acid with a platform moving from one side to another.
-As the player steps onto a moving platform, they are carried over the pool of acid.
-The player successfully navigates across the moving platforms to reach the other side..
-Using moving platforms familiarizes players with platforming mechanics and dynamic level elements, preparing them for more complex platforming challenges later in the game.
+As the player steps onto a moving platform, they are carried over the acid pool.
+Moving platforms familiarise players with platforming mechanics and dynamic level elements, preparing them for more complex platforming challenges later in the game.
 
 ### 2.7. Passthrough Platforms
 
 ![PassthroughPlatfroms!](DocImages/passingthroughplatforms.png)
 
-The player encounters a platform with circles on it and realise they are unable to get pass the spikes.
-This prompts the player to pass through the platform to avoid the spike safely.
-Once the player is safe from the spikes they are able to jump back up through the platform.
-The passthrough platforms makes players navigate hazardous areas safely, adding depth to platforming and traversal mechanics.
+The player encounters a platform with circles on it and realises they are unable to get past the spikes.
+Once the player is safe from the spikes, they can jump back up through the platform.
+The passthrough platforms make players navigate hazardous areas safely, adding depth to platforming and traversal mechanics.
 
 ### 2.8. Spikes
 
 ![Spikes!](DocImages/spikes.png)
 
 The player approaches a section of the ground with sharp spikes.
-As the player steps onto the spikes, they take damage and a pain animation is triggered.
+As the player steps onto the spikes, they take damage.
 The player retreats from the spikes and finds an alternate path to get past them.
-The initial introduction to the spikes emphasizes their role as deadly hazards, teaching players to avoid them.
+The initial introduction to the spikes emphasises their role as deadly hazards, teaching players to avoid them.
 
 ### 2.9. Spitters
 
@@ -135,25 +128,24 @@ The initial introduction to the spikes emphasizes their role as deadly hazards, 
 The player encounters a spitter enemy perched on a ledge.
 The spitter launches projectiles at the player character, demonstrating its ranged attack.
 The player can evade the projectiles and defeat the spitter using ranged or melee attacks.
-Spitters introduce players to ranged combat mechanics and teaches them to prioritize and strategize when dealing with different enemy types.
+Spitters introduce players to ranged combat mechanics and teach them to prioritise and strategise when dealing with different enemy types.
 
 ### 2.10. Weapon Pickup (Gun)
 
 ![WeaponPickupGun!](DocImages/weapongun.png)
 
 The player discovers a gun pickup on the ground.
-As the player picks up the gun, a sound effect plays.
 The player then uses 'O' to use the gun and defeat the enemy ahead.
-Introducing the gun at the same time as the spitters helps the player understand how to deal with ranged situations.
+Introducing the gun simultaneously with the spitters helps the player understand how to deal with ranged situations.
 
 ### 2.11. Weapon Pickup (Staff)
 
 ![WeaponPickupStaff!](DocImages/weaponstaff.png)
 
 The player discovers a staff pickup on the ground.
-As the player picks up the staff, a sound effect plays.
 The player then uses 'K' to use the staff and defeat the enemy ahead.
-Introducing the staff at the same time as the chomper helps the player understand how to deal enemys.
+Introducing the staff with the chomper helps the player understand how to deal with the enemy.
+
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
@@ -168,10 +160,17 @@ No additional words are necessary for this section (any words should only be wit
 
 ### 3.4.	Level Map – Section 3
 
-## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+## 4. Iterative Design 
+Initial Prototypes and Grey-Boxed Maps: I started with rough sketches using red to show the player's movement and routes and blue to show objects, platforms and enemy movement. These early prototypes helped me identify potential pacing, navigation, and gameplay mechanics issues. 
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+Feedback and Iteration: I gathered feedback from playtesters, analysing their experiences and identifying areas for improvement. For example, one of my playtesters didn't know where to continue at one point; this made me realise I had to create a positive space to guide them to continue along the path.
+
+Unity Implementation: After finalising my level design maps, I implemented them in Unity. However, during this process, I encountered technical and gameplay limitations requiring further Iteration. For example, we may have needed to adjust the size or placement of certain assets to optimise performance or improve gameplay balance. 
+
+Design Changes in Unity: I made several design changes to enhance the player experience based on playtesting and observation within the Unity environment. This includes tweaking the placement of obstacles to create more challenging encounters, adjusting lighting and ambience to improve the atmosphere, or refining the visual composition to create more distinct and memorable spaces. 
+
+Example of Further Iterative Design: One aspect of my level design that could be improved through further Iteration is the pacing of encounters. While we've designed a variety of challenges and obstacles, the pacing of these encounters may sometimes align with the player's expectations or preferences. By iterating on the moving platform timing, environmental hazards, and interactive elements, I created a more balanced and engaging experience that maintains momentum without feeling overwhelming or repetitive. 
+
 
 ## Generative AI Use Acknowledgement
 
