@@ -169,7 +169,7 @@ Introducing the staff with the chomper helps the player understand how to deal w
 
 ### 3.2. Level Map – Section 1
 
-![Section1!](DocImages/section1.png)
+![Section1!](DocImages/Section1.png)
 
 ### 3.3.	Level Map – Section 2
 
