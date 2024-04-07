@@ -35,7 +35,7 @@ Moments of Tension and Relief: I strategically insert moments of tension and rel
 
 Navigational Complexity: In the final level, players must master all previously introduced mechanics and skills. I introduced branching paths and navigational challenges that require careful exploration and decision-making. Players must navigate through deceptive routes and backtrack to complete tasks, adding a layer of complexity and uncertainty to the gameplay.
 
-![final level!](DocImages/Screenshot 2024-04-07 181202.png)
+![final level!](DocImages/Screenshot2024-04-07181202.png)
 
 ### 1.3. Challenge
 
@@ -45,26 +45,26 @@ Environmental Hazards and Obstacles Hazards include spikes, acid pools, and othe
 
 Puzzle-Solving and Exploration: To maintain engagement during these levels, I've designed intuitive and solvable puzzles with the information provided within the game world. 
 
-![complez!](DocImages/complex.png)
+![complex!](DocImages/egcomplex.png)
 
 ### 1.4. Exploration
 
 Organic and Immersive Environments: I strived to make the environments feel organic and immersive, seamlessly blending landscape elements with gameplay features. For example, spikes are integrated into the natural terrain, making them feel like a natural part of the environment rather than artificially placed obstacles. By incorporating these elements into the landscape, players are encouraged to explore their surroundings more deeply, as they feel like authentic parts of the game world.
 
-![design!](DocImages/Screenshot 2024-04-07 181034.png)
+![design!](DocImages/Screenshot2024-04-07181034.png)
 
 
 Curved and Natural Layouts: The level layouts are designed with curves and natural contours rather than rigid block-like structures. This adds visual interest and contributes to the believability and immersion of the game world. Players feel like they are navigating through caves in floating islands, enhancing the sense of discovery and exploration.
 
 Distinct and Memorable Spaces: Through the aesthetic and layout choices, I aimed to create different and memorable spaces that leave a lasting impression on players. Each area of the game world has its unique visual identity and atmosphere, from pink voluminous cotton candy skies to ominous caverns, by carefully crafting these spaces with attention to detail, lighting, and environmental storytelling.
 
-![design!](DocImages/Screenshot 2024-04-0 7181128.png)
+![design!](DocImages/Screenshot2024-04-07181128.png)
 
 Negative Space as Background: I kept negative space uncluttered to draw attention to key objects and elements, guiding the player's movement and focus. 
 
 Positive Space: These spaces are not merely background elements but integral components of the game world that contribute to its atmosphere and narrative.
 
-![design!](DocImages/Screenshot 2024-04-07 181338.png)
+![design!](DocImages/Screenshot2024-04-07181338.png)
 
 ## 2. Core Gameplay 
 
@@ -190,6 +190,13 @@ Design Changes in Unity: I made several design changes to enhance the player exp
 
 Example of Further Iterative Design: One aspect of my level design that could be improved through further Iteration is the pacing of encounters. While we've designed a variety of challenges and obstacles, the pacing of these encounters may sometimes align with the player's expectations or preferences. By iterating on the moving platform timing, environmental hazards, and interactive elements, I created a more balanced and engaging experience that maintains momentum without feeling overwhelming or repetitive. 
 
+![draw1!](DocImages/draw1.png)
+
+![draw2!](DocImages/draw2.png)
+
+![draw3!](DocImages/draw3.png)
+
+![draw4!](DocImages/draw4.png)
 
 ## Generative AI Use Acknowledgement
 
